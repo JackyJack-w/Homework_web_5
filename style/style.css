@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0 auto;
+    background-color: #3a4965 ;
+    font-family: 'Arimo';
+    font-size: 16px;
+ 
+    color: #484848;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container{
+    width:85%;
+margin-left: 7%;
+margin-top: 22px;
+margin-bottom: 32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pricing-table1{
+   
+    background: #fff;
+    border-collapse: collapse;
+    width: 1140px;
+    height: 680px;
+}
+
+.pricing-table1 td{
+  
+    /* box-shadow: -4px 0 5px -5px rgba(0, 0, 0, .27), 0px 0 5px -5px rgba(0, 0, 0, .27) ; */
+    /* box-shadow:   5px 0 5px -5px #333; */
+    box-shadow:  inset -5px 0 5px -5px rgba(0, 0, 0, .27);
+}
+
+.pricing-table1 th{
+  
+    /* box-shadow: -4px 0 5px -5px rgba(0, 0, 0, .27), 0px 0 5px -5px rgba(0, 0, 0, .27) ; */
+    /* box-shadow:   5px 0 5px -5px #333; */
+    box-shadow:  inset -5px 0 5px -5px rgba(0, 0, 0, .27);
+}
+
+
+th,td{
+   border-collapse: collapse;
+    
+   
+}
+
+
+.choose-plan{
+    background: #fafafa;;
+   width: 310px;
+}
+
+.title-plan1{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.title-plan2{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.pricing-plan-standart{
+    background: #89c331;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #ffff;
+    font-weight: bold;
+}
+
+.pricing-plan-ultimate{
+    background: #f04a56;
+    font-size: 30px;
+    line-height: 28px;
+   
+    color: #ffff;
+    font-weight: bold;
+}
+.pricing-plan-premium{
+    background: #20807c;
+    font-size: 24px;
+    line-height: 28px;
+   
+    color: #ffff;
+    font-weight: bold;
+
+}
+.price{
+    background: #fafafa;
+}
+
+.price-tag{
+    height: 86px;
+    width: 277px;
+    position: relative;
+}
+
+.price-firsthalf{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.price-secondhalf{
+    font-size: 24px;
+    font-weight: bold;  
+    position: absolute;
+    top: 17px;
+}
+
+.storage{
+    background: #f2f2f2;
+}
+/* .fas{
+padding-right: 12px;
+    color:#848484;
+   
+} */
+
+.fas-pad{
+    padding-right: 12px;
+    color:#848484;
+   
+}
+
+
+.bandwidth{
+    background: #e3e3e3;
+}
+.email{
+    background: #f2f2f2;
+}
+.support{
+    background: #e3e3e3;
+}
+.products{
+    background: #f2f2f2;
+}
+.users{
+    background: #e3e3e3;
+}
+
+.contact-us{
+    background: #dddddd;
+}
+
+.contact-us-button{
+    background-color: #484848;
+    text-transform: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ffff;
+    padding: 20px 44px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+}
+
+.contact-us-button:hover{
+   color: #484848;
+    transform: translateY(-7px);
+    background-color: #fff;
+    box-shadow: 0 15px 20px rgba(89, 99, 95, 0.4);
+}
+
+.contact-us-button:active{
+    transform: translateY(7px);
+}
+
+.buy-now1{
+    background: #eeeeee;
+}
+
+.buy-now1-button{
+    background-color: #89c331;
+    text-transform: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ffff;
+    padding: 20px 58px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+
+}
+
+.buy-now1-button:hover{
+
+    color: #89c331;
+    transform: translateY(-7px);
+    background-color: #fff;
+    box-shadow: 0 15px 20px rgba(89, 99, 95, 0.4);
+}
+
+.buy-now1-button:active{
+    transform: translateY(7px);
+}
+
+.buy-now2{
+    background: #f4f4f4;
+}
+
+.buy-now2-button{
+    background-color: #f04a56;
+    text-transform: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ffff;
+    padding: 20px 58px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+
+}
+
+.buy-now2-button:hover{
+
+    color: #f04a56;
+    transform: translateY(-7px);
+    background-color: #fff;
+    box-shadow: 0 15px 20px rgba(89, 99, 95, 0.4);
+}
+
+.buy-now2-button:active{
+    transform: translateY(7px);
+}
+
+.buy-now3{
+    background: #eeeeee;
+}
+
+.buy-now3-button{
+    background-color: #20807c;
+    text-transform: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ffff;
+    padding: 20px 58px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+
+}
+
+.buy-now3-button:hover{
+
+    color: #20807c;
+    transform: translateY(-7px);
+    background-color: #fff;
+    box-shadow: 0 15px 20px rgba(89, 99, 95, 0.4);
+}
+
+.buy-now3-button:active{
+    transform: translateY(7px);
+}
+
+
+/* TABLE2 */
+.pricing-table2{
+    margin-top: 50px;
+    background: #fff;
+    border-collapse: collapse;
+    width: 1140px;
+    height: 608px;
+}
+
+.pricing-table2 td{
+  
+    box-shadow: inset 0 -4px 4px -6px #333;
+}
+
+.pricing-table2 th{
+  
+    box-shadow: inset 0 -4px 4px -6px #333;
+}
+
+.choose-plan2{
+
+    width:198px;
+    background: #fafafa;
+}
+
+.bck-color{
+    width: 157px;
+    height: 111px;
+}
+.color{
+    background: #e3e3e3;
+}
+
+.color1{
+    background: #f2f2f2;
+}
+.pad-bot{
+    padding-bottom: 11px;
+    color: #848484;
+}
+
+.title-plan3{
+     font-size: 14px;
+     font-weight: bold;
+}
+
+.title-plan4, .price-name{
+    font-size: 20px;
+     font-weight: bold;
+}
+
+.standart-price{
+    background: #89c331;
+    height: 165px;
+    position: relative;
+
+}
+
+.price-standart{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: 20%;
+    
+}
+.price-firsthalf-sec-table{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    
+   
+}
+.price-secondhalf-sec-table{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: 61%;
+    
+}
+
+.price-secondhalf-sec-table-month{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: 35%;
+    padding-left: 2px;
+    
+}
+.buy-now-button-sec-table{
+  margin-top: 10px;
+    background-color: #414141;
+    text-transform: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    color: #ffff;
+    padding: 15px 33px 13px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: .3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+
+}
+
+.buy-now-button-sec-table:hover{
+    color: #484848;
+     transform: translateY(-5px);
+     background-color: #fff;
+     box-shadow: 0 15px 20px rgba(89, 99, 95, 0.4);
+ }
+ 
+ .buy-now-button-sec-table:active{
+     transform: translateY(5px);
+ }
+
+ .premium-price{
+    background: #f04a56;
+    height: 165px;
+    position: relative;
+ }
+
+ .ultimate-price{
+    background: #20807c;
+    height: 165px;
+    position: relative;
+ }

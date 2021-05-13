@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Arimo';
+	src: url('Arimo-Bold.eot');
+	src: local('Arimo Bold'), local('Arimo-Bold'),
+		url('Arimo-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Arimo-Bold.woff') format('woff'),
+		url('Arimo-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Arimo';
+	src: url('Arimo.eot');
+	src: local('Arimo'),
+		url('Arimo.eot?#iefix') format('embedded-opentype'),
+		url('Arimo.woff') format('woff'),
+		url('Arimo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
